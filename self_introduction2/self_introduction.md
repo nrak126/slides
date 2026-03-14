@@ -56,7 +56,7 @@ style: |
 **趣味**: 旅行、絶叫系、スキー・スノボ、食べること
 
 <img src="IMG_0672.jpg"  height="300">
-<img src="1.jpg"  height="300">
+<img src="111.jpg"  height="300">
 <img src="2.jpg"  height="300">
 <img src="3.jpg"  height="300">
 
