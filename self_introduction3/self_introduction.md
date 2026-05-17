@@ -27,6 +27,29 @@ style: |
     justify-content: center;
     align-items: center;
   }
+  /* Two-column layout for project slides */
+  .two-col {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .two-col .two-col-text {
+    flex: 1 1 320px;
+    min-width: 240px;
+  }
+  .two-col .two-col-image {
+    flex: 1 1 320px;
+    min-width: 240px;
+    text-align: center;
+  }
+  .two-col img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh;
+    display: inline-block;
+  }
 ---
 
 <!-- _class: center -->
@@ -87,22 +110,30 @@ style: |
 - 1年生
   - システム工学研究会に入会
   - ハッカソンに誘われ、Web技術を始める
-  - 初めてのハッカソンに出場
-    - ハッカソンにハマる
-- 2年生
-  - ハッカソンに出場しまくる
-  - 長期インターンに参加
 
 ---
 
-<!-- _class: center -->
+## 大学生
+
+- 2年生
+  - ハッカソンにたくさん出場
+  - 長期インターンに参加
+  <!-- _class: center -->
 
 <div class="center">
-<img src="IMG_7513.jpg" width="400" height=auto>
 <div>
   <img src="aaaaaa.jpg" width="360" height=auto>
   <img src="hacku.png" width="360" height=auto>
+<img src="IMG_7513.jpg" width="auto" height="400">
 </div>
+
+---
+
+## 大学生
+
+- 3年性
+  - 研究室配属
+  - 進化計算コンペティションに応募
 
 ---
 
@@ -110,7 +141,7 @@ style: |
 
 ## 新規機能開発
 
-新規機能の開発を設計から実装まで担当した。
+新規機能の開発を設計から実装まで担当した
 
 ### 苦労したこと
 
@@ -121,13 +152,16 @@ style: |
 - 既存サービスを参考
 - メンターに何度も見てもらう
 
-ユーザに使ってもらうUIについてしっかり考える機会になった。
+ユーザに使ってもらうUIについてしっかり考える機会になった
 
 ---
 
 # Yo haku（ハッカソン）
 
-### 概要
+<div class="two-col">
+  <div class="two-col-text">
+
+  ### 概要
 
 友達をご飯や遊びに気軽に誘えるアプリ
 
@@ -135,34 +169,45 @@ style: |
 
 普段の友達や、地元の疎遠になった友達をもっと気軽に誘いたい！
 
+  </div>
+
+  <div class="two-col-image">
+    <img src="./yohaku.jpeg" alt="Yo haku">
+  </div>
+</div>
+
 ### 技術
 
 - React: インターンで学んだアーキテクチャを実践
-- Go: 初めてのバックエンド、設計を試行錯誤しながら実装。
-- AWS: 初めてのインフラ。フロント/バックエンドのCICDを実装。
+- Go: 初めてのバックエンド、設計を試行錯誤しながら実装
+- AWS: 初めてのインフラ。フロント/バックエンドのCICDを実装
 
 ---
 
 # Rehabit（ハッカソン）
 
-### プロダクト
+<div class="two-col">
+  <div class="two-col-text">
 
-リバビリ箇所の可動域を計測して効果を可視化するアプリ
+### 概要
+
+リバビリ箇所の可動域を毎日計測する<br>アプリ
 
 ### 課題
 
-リハビリは効果を実感しづらく、継続のモチベーションが下がりやすい。
+リハビリは効果を実感しづらく、継続のモチベーションが下がりやすい
+
+  </div>
+
+  <div class="two-col-image">
+    <img src="rehabit.png">
+  </div>
+</div>
 
 ### 工夫
 
 - UXを重視した設計
   - 「自分でも毎日使いたいと思えるか」を意識
-  - 継続しやすい体験を重視
-
----
-
-<img src="yohaku.jpeg" height="300">
-<img src="rehabit.png" height="300">
 
 ---
 
@@ -210,8 +255,9 @@ style: |
 #### 人に元気を与えるプロダクトを作りたい
 
 ## 今後何をするか
-- UI/UXについて学び、使いやすさや楽しさを意識した設計を行う
-- これまでは広く技術を触ってきたので、ひとつ極めたい
+
+- UI/UXについて学び, 使いやすく楽しさを意識した設計を行う
+- これまでは広く技術を触ってきたので、一つの技術を極めたい
 - インターンやチーム開発で実践経験を積む
 
 ---
